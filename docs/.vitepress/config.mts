@@ -18,6 +18,9 @@ export default defineConfig({
           { text: '团队管理经验',
             link: '/2026/team_managing'
           },
+          { text: 'Vim学习',
+            link: '/2026/vim_learning'
+          },
         ]
       },
     ],
