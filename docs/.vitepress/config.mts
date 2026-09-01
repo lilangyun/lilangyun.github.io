@@ -15,11 +15,14 @@ export default defineConfig({
       {
         text: '2026',
         items: [
-          { text: '团队管理经验',
-            link: '/2026/team_managing'
+          { text: 'TCP实验',
+            link: '/2026/tju_tcp_lab'
           },
           { text: 'Vim学习',
             link: '/2026/vim_learning'
+          },
+          { text: '团队管理经验',
+            link: '/2026/team_managing'
           },
         ]
       },
