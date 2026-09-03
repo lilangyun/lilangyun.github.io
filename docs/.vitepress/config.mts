@@ -21,7 +21,7 @@ export default defineConfig({
             text: '技术博客',
             link: '/2026/tju_tcp_lab',
             items: [
-              { 
+              {
                 text: 'TCP实验',
                 link: '/2026/tju_tcp_lab'
               },
@@ -52,7 +52,9 @@ export default defineConfig({
                 link: '/2026/new_semester',
               },
             ]
-          }
+          },
+          // 下一个分类
+
         ]
       }
     ],
