@@ -22,8 +22,8 @@ export default defineConfig({
             link: '/2026/tju_tcp_lab',
             items: [
               {
-                text: 'TCP实验',
-                link: '/2026/tju_tcp_lab'
+                text: 'Codex image_gen skill替代方案',
+                link: '/2026/imagegen',
               },
               { 
                 text: 'Vim学习',
