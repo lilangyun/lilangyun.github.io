@@ -19,8 +19,12 @@ export default defineConfig({
           // 技术博客
           {
             text: '技术博客',
-            link: '/2026/vscode_shortcuts',
+            link: '/2026/git_push_error',
             items: [
+              {
+                text: 'Git push 报错',
+                link: '/2026/git_push_error',
+              },
               {
                 text: 'VSCode快捷键',
                 link: '/2026/vscode_shortcuts',
