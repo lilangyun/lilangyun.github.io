@@ -19,8 +19,12 @@ export default defineConfig({
           // 技术博客
           {
             text: '技术博客',
-            link: '/2026/imagegen',
+            link: '/2026/vscode_shortcuts',
             items: [
+              {
+                text: 'VSCode快捷键',
+                link: '/2026/vscode_shortcuts',
+              },
               {
                 text: 'Codex image_gen skill替代方案',
                 link: '/2026/imagegen',
