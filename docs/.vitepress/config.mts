@@ -19,8 +19,12 @@ export default defineConfig({
           // 技术博客
           {
             text: '技术博客',
-            link: '/2026/git_push_error',
+            link: '/2026/ps_shortcuts',
             items: [
+              {
+                text: '终端快捷键',
+                link: '/2026/ps_shortcuts',
+              },
               {
                 text: 'Git push 报错',
                 link: '/2026/git_push_error',
@@ -30,8 +34,8 @@ export default defineConfig({
                 link: '/2026/vscode_shortcuts',
               },
               {
-                text: 'Codex image_gen skill替代方案',
-                link: '/2026/imagegen',
+                text: 'Codex使用技巧',
+                link: '/2026/codex_tips',
               },
               { 
                 text: 'Vim学习',
