@@ -1,6 +1,8 @@
-# 记录使用终端的一些小技巧
+# Powershell实用技巧
 
-## 在终端输入了很长一段指令，但是删除却很麻烦
+本人电脑操作系统为 Windows 操作系统，因此执行一些指令经常需要使用 Powershell，但是执行一些指令时，也会发现很多**痛点**导致用起来不方便，**因此想要记录一些实用技巧，例如快捷键或者编辑模式。**
+
+## 在终端输入了很长一段指令，但是想要删除
 
 ### Powershell
 
@@ -29,7 +31,7 @@
 Set-PSReadLineOption -EditMode Emacs
 ```
 
-运行后立刻试 Ctrl+U，应该就能删除光标前所有内容。
+运行后立刻试 `Ctrl+U`，应该就能删除光标前所有内容。
 
 ### 二、永久配置（每次启动自动生效）
 
@@ -86,7 +88,7 @@ Get-PSReadLineOption | Select-Object EditMode
 Get-Module PSReadLine
 ```
 
-无输出就先运行 Import-Module PSReadLine。
+无输出就先运行 `Import-Module PSReadLine`。
 
 #### 确认版本
 
@@ -119,4 +121,4 @@ Set-PSReadLineOption -EditMode Emacs
 
 就这两行，干净利落。不需要其他多余设置。
 
-一句话总结：运行 Set-PSReadLineOption -EditMode Emacs 立即生效；写入 $PROFILE 永久生效；验证看 EditMode 是否为 Emacs。
+一句话总结：运行 `Set-PSReadLineOption -EditMode Emacs` 立即生效；写入 `$PROFILE` 永久生效；验证看 `EditMode` 是否为 `Emacs`。

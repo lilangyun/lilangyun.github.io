@@ -5,11 +5,11 @@
 
 ## 兴趣爱好
 
-- Coding:  
+- **Coding**:  
   喜欢与代码打交道，正在努力做出展现个人价值的项目
-- Sporting:  
+- **Sporting**:  
   在学校经常打篮球、跑步和游泳，喜欢锻炼身体
-- Reading:  
+- **Reading**:  
   闲暇之余，也会阅读一些书籍，例如《明朝那些事儿》、《朝花夕拾》等等
 
 ## 个人主页
@@ -23,5 +23,5 @@
 
 ## 参考
 
-- 本项目采用开源项目[VitePress](https://github.com/vuejs/vitepress)构建生成 
+- 本项目采用开源项目[VitePress](https://github.com/vuejs/vitepress)构建生成
 - 项目结构和配置参考自[漂流瓶jz的博客](https://jzplp.github.io/) 

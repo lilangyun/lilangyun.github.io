@@ -22,7 +22,7 @@ export default defineConfig({
             link: '/2026/ps_shortcuts',
             items: [
               {
-                text: '终端快捷键',
+                text: 'PS实用技巧',
                 link: '/2026/ps_shortcuts',
               },
               {
@@ -32,10 +32,6 @@ export default defineConfig({
               {
                 text: 'VSCode快捷键',
                 link: '/2026/vscode_shortcuts',
-              },
-              {
-                text: 'Codex使用技巧',
-                link: '/2026/codex_tips',
               },
               { 
                 text: 'Vim学习',

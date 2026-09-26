@@ -1,9 +1,11 @@
 # Git push运行失败
 
+自己在将本地的代码提交推送至远程的代码仓库时，由于有时会连接 VPN 访问 Github，所以可能在终端使用了代理端口后，导致正常推送失败，这里记录一下这个报错的具体解决办法。
+
 ## 具体报错
 ```powershell
-PS D:\blog> git push
-fatal: unable to access 'https://github.com/lilangyun/lilangyun.github.io.git/': Failed to connect to github.com port 443 after 21116 ms: Could not connect to server
+$ git push
+fatal: unable to access 'https://github.com/{username}/{username}.github.io.git/': Failed to connect to github.com port 443 after 21116 ms: Could not connect to server
 ```
 
 ### 排查与解决方法
@@ -20,7 +22,7 @@ fatal: unable to access 'https://github.com/lilangyun/lilangyun.github.io.git/':
     git config --global http.proxy 127.0.0.1:端口号
     git config --global https.proxy 127.0.0.1:端口号
     ```
-    例如，如果你的代理端口是 `7890`，则命令为 `git config --global http.proxy 127.0.0.1:7890`。
+    例如，如果你的代理端口是 `7897`，则命令为 `git config --global http.proxy 127.0.0.1:7897`。
 *   **取消代理**：如果之后想取消，可以执行：
     ```bash
     git config --global --unset http.proxy
@@ -40,6 +42,6 @@ fatal: unable to access 'https://github.com/lilangyun/lilangyun.github.io.git/':
 *   **添加公钥到 GitHub**：复制 `~/.ssh/id_ed25519.pub` 文件内容，在 GitHub 的 `Settings` -> `SSH and GPG keys` 中添加。
 *   **修改远程地址**：在项目目录下执行：
     ```bash
-    git remote set-url origin git@github.com:lilangyun/lilangyun.github.io.git
+    git remote set-url origin git@github.com:{username}/{username}.github.io.git
     ```
     然后再次尝试 `git push`。
