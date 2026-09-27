@@ -1,6 +1,7 @@
 # 简介
 
-这里是李浪云的个人博客，本人是一名普通的CS本科生。目前在努力学习CS知识，掌握挣钱的本领。  
+这里是李浪云的个人博客，本人是一名普通的CS本科生。目前在努力学习CS知识，掌握挣钱的本领。
+
 博客主要记录技术总结、项目管理经验、生活感悟等。  
 
 ## 兴趣爱好
@@ -16,10 +17,10 @@
 
 以下是本人代码托管仓库的个人主页，主要包含本人做过的项目:  
 
-* Github
-  https://github.com/lilangyun
-* Gitee
-  https://gitee.com/lilangyun
+* [Github](https://github.com/lilangyun)
+
+  
+* [Gitee](https://gitee.com/lilangyun)
 
 ## 参考
 

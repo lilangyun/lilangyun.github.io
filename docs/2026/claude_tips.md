@@ -5,7 +5,16 @@
 ## 接着上一次的聊天继续执行任务
 
 ```bash
-claude resume --last
-claude resume
-claude resume <SESSION_ID>
+# 继续最近一次会话
+claude --continue
+# 或简写
+claude -c
+
+# 打开会话选择器，手动挑选要恢复的对话
+claude --resume
+# 或简写
+claude -r
+
+# 直接恢复指定会话 ID
+claude --resume <SESSION_ID>
 ```
