@@ -19,11 +19,11 @@ export default defineConfig({
           // 技术博客
           {
             text: '技术博客',
-            link: '/2026/ps_shortcuts',
+            link: '/2026/powershell_tips',
             items: [
               {
                 text: 'PS实用技巧',
-                link: '/2026/ps_shortcuts',
+                link: '/2026/powershell_tips',
               },
               {
                 text: 'Git push 报错',
@@ -32,6 +32,10 @@ export default defineConfig({
               {
                 text: 'VSCode快捷键',
                 link: '/2026/vscode_shortcuts',
+              },
+              {
+                text: 'Claude Code 实用技巧',
+                link: '/2026/claude_tips.md',
               },
               { 
                 text: 'Vim学习',
