@@ -18,3 +18,17 @@ claude -r
 # 直接恢复指定会话 ID
 claude --resume <SESSION_ID>
 ```
+
+## 压缩上下文
+
+命令为：`/compact`，但是最好附上具体指令明确告诉 Claude 保留什么、丢弃什么，这样能避免重要信息被压缩掉。
+
+```bash
+/compact {具体指令}
+```
+
+示例：
+
+```bash
+/compact 重点保留 API 接口的设计决策和参数定义，可以丢弃调试过程中的无效尝试
+```
